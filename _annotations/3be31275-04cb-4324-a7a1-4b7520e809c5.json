@@ -3,44 +3,44 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_004"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "cicada2",
-            "purpose": "commenting",
+            "created": "2022-08-31T00:58:47.511Z",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
-            "created": "2022-08-31T00:58:47.511Z",
-            "modified": "2022-08-31T00:58:49.969Z"
+            "modified": "2022-08-31T00:58:49.969Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "cicada2"
         },
         {
-            "type": "TextualBody",
-            "value": "reply1",
-            "purpose": "commenting",
+            "created": "2022-08-31T01:00:14.411Z",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
-            "created": "2022-08-31T01:00:14.411Z",
-            "modified": "2022-08-31T01:00:17.350Z"
+            "modified": "2022-08-31T01:00:17.350Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "reply1"
         }
     ],
+    "id": "3be31275-04cb-4324-a7a1-4b7520e809c5.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4823.94287109375,2737.24755859375,1043.9306640625,721.41015625"
+            "value": "xywh=4823.94287109375,2496.069580078125,1008.64697265625,2149.439697265625"
         },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3be31275-04cb-4324-a7a1-4b7520e809c5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
