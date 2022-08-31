@@ -1,0 +1,34 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_004"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "striped wing",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-08-31T01:01:45.540Z",
+            "modified": "2022-08-31T01:01:48.630Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2263.7958984375,7276.47265625 3676.35546875,6836.033203125 4588.39208984375,6624.76806640625 5900.92431640625,7093.0166015625 5826.37744140625,7366.35595703125 4969.08642578125,7701.81787109375 3751.485107421875,7838.4873046875 2807.222412109375,7813.63818359375 2319.26953125,7779.1796875 2099.025634765625,7527.87451171875 2161.148193359375,7353.931640625 2173.57275390625,7341.5068359375 2198.421630859375,7341.5068359375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "05929461-d121-44b8-bc51-184cdfdfabd5.json",
+    "motivation": "commenting"
+}
