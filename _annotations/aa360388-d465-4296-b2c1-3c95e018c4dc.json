@@ -3701,16 +3701,16 @@ order: 1
     "id": "aa360388-d465-4296-b2c1-3c95e018c4dc.json",
     "motivation": "commenting",
     "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=378.2315673828125,570.2711181640625,1615.185791015625,3230.3717041015625"
+        },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest",
             "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=476.1230773925781,871.7396240234375,1339.1288757324219,927.3243408203125"
-        },
-        "source": "https://d.lib.ncsu.edu/collections/canvas/segIns_004"
+        }
     },
     "type": "Annotation"
 }
