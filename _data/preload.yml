@@ -13,6 +13,7 @@ manifests:
 - https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
 - https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
 - https://purl.stanford.edu/wh234bz9013/iiif/manifest
+- url
 settings:
   tempuser: notenabled
   viewer: default
