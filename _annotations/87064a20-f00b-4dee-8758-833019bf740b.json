@@ -1,0 +1,30 @@
+---
+canvas: "https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "https://oa.letterformarchive.org/item?workID=lfa_kavalla_0026",
+            "purpose": "linking",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-18T03:31:22.983Z",
+            "modified": "2022-10-18T03:31:25.392Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"179.5556526184082\" cy=\"182.6166877746582\" r=\"80.23351275242472\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "87064a20-f00b-4dee-8758-833019bf740b.json",
+    "motivation": "commenting"
+}
