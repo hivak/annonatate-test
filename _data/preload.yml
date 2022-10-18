@@ -16,6 +16,7 @@ manifests:
 - https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
 - https://purl.stanford.edu/wh234bz9013/iiif/manifest
 - https://iiif.archivelab.org/iiif/mma_design_drawing_363735/manifest.json
+- https://www.artic.edu/iiif/2/23713ca3-61ed-4167-352c-d189b71a2baf/full/full/0/default.jpg
 settings:
   tempuser: notenabled
   viewer: default
