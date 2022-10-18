@@ -4,6 +4,7 @@ images:
 - https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
 - https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_0025.jpg
 - https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg
+- https://oa.letterformarchive.org/api/image/lfa_baker_0111/lfa_baker_0111_001
 manifests:
 - https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
 - https://dnoneill.github.io/annotate/manifests/parismap.json
