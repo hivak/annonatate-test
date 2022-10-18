@@ -1,0 +1,31 @@
+---
+canvas: "https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "In lieu of copywriting, the layouts include dummy text represented by meticulously placed brush strokes.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-18T02:55:40.554Z",
+            "modified": "2022-10-18T02:56:22.387Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=295.4436950683594,1750.3917236328125,841.6531066894531,353.0269775390625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a3fa4286-5e5b-45c1-bd1e-729ae29a1de3.json",
+    "motivation": "commenting"
+}
