@@ -3,5 +3,12 @@
 {
     "label": "Ludmila Kavalla",
     "type": "storyboardlist",
-    "items": []
+    "items": [
+        {
+            "board": "<iiif-multistoryboard annotationurl='https://hivak.github.io/design-examples/annotations/ia601002-us-archive-org-1-lfakavalla0026-lfa-kavalla-0026-jpg-list.json'></iiif-multistoryboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
 }
