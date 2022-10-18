@@ -17,15 +17,26 @@ order: 4
             "value": "Letterform Archive: \nhttps://oa.letterformarchive.org/item?workID=lfa_kavalla_0025"
         },
         {
-            "type": "TextualBody",
-            "value": "Internet Archive record:\nhttps://archive.org/details/lfakavalla0025",
-            "purpose": "linking",
+            "created": "2022-10-18T03:49:09.859Z",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
-            "created": "2022-10-18T03:49:09.859Z",
-            "modified": "2022-10-18T03:49:40.550Z"
+            "modified": "2022-10-18T03:49:40.550Z",
+            "purpose": "linking",
+            "type": "TextualBody",
+            "value": "Internet Archive record:\nhttps://archive.org/details/lfakavalla0025"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Original artwork by Ludmila Kavalla, Austria, 1950s",
+            "purpose": "describing",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-18T03:54:14.088Z",
+            "modified": "2022-10-18T03:54:30.015Z"
         }
     ],
     "id": "35b432cb-c12c-4dc6-98bd-bba6d0647fa0.json",
