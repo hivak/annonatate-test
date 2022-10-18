@@ -19,13 +19,13 @@ order: 4
         {
             "type": "TextualBody",
             "value": "Internet Archive record:\nhttps://archive.org/details/lfakavalla0025",
-            "purpose": "commenting",
+            "purpose": "linking",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
             "created": "2022-10-18T03:49:09.859Z",
-            "modified": "2022-10-18T03:49:23.263Z"
+            "modified": "2022-10-18T03:49:40.550Z"
         }
     ],
     "id": "35b432cb-c12c-4dc6-98bd-bba6d0647fa0.json",
