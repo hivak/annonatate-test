@@ -1,0 +1,30 @@
+---
+canvas: "https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Straight and evenly spaced baseline guides created by scoring (and rescoring) the paper",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-18T03:03:21.128Z",
+            "modified": "2022-10-18T03:04:22.049Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1034.9720764160156\" cy=\"1939.96240234375\" rx=\"198.29403686523438\" ry=\"120\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "96b117ce-a44a-4c23-aeb3-b1567dc89835.json",
+    "motivation": "commenting"
+}
