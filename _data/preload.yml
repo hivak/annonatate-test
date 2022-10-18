@@ -18,6 +18,7 @@ manifests:
 - https://iiif.archivelab.org/iiif/mma_design_drawing_363735/manifest.json
 - https://www.artic.edu/iiif/2/23713ca3-61ed-4167-352c-d189b71a2baf/full/full/0/default.jpg
 - https://www.artic.edu/iiif/2/8abbd9da-7e4f-ece2-6326-c8bf62316f0c/full/full/0/default.jpg
+- https://iiif.archivelab.org/iiif/LFA_Type_0070/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
