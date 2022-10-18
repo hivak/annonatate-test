@@ -7,14 +7,14 @@ order: 5
     "body": [
         {
             "type": "TextualBody",
-            "value": "la fileuse [French for \"weaver\"]",
+            "value": "La Fileuse [French for \"weaver\"]",
             "purpose": "supplementing",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
             "created": "2022-10-18T03:07:41.303Z",
-            "modified": "2022-10-18T03:08:21.183Z"
+            "modified": "2022-10-18T03:08:44.272Z"
         }
     ],
     "target": {
