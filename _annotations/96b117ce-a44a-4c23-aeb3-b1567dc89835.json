@@ -8,13 +8,13 @@ order: 3
         {
             "type": "TextualBody",
             "value": "Straight and evenly spaced baseline guides created by scoring (and rescoring) the paper",
-            "purpose": "commenting",
+            "purpose": "describing",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
             "created": "2022-10-18T03:03:21.128Z",
-            "modified": "2022-10-18T03:04:22.049Z"
+            "modified": "2022-10-18T03:05:09.435Z"
         }
     ],
     "target": {
