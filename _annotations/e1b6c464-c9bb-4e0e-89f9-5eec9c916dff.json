@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Anthropomorphized product",
+            "value": "Product displayed as a cruciform floral arrangement",
             "purpose": "describing",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
             "created": "2022-10-18T02:52:49.646Z",
-            "modified": "2022-10-18T02:54:17.867Z"
+            "modified": "2022-10-18T03:10:54.807Z"
         }
     ],
     "target": {
