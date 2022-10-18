@@ -3,28 +3,28 @@ canvas: "https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_002
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "https://oa.letterformarchive.org/item?workID=lfa_kavalla_0025",
-            "purpose": "linking",
+            "created": "2022-10-18T03:30:42.680Z",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
-            "created": "2022-10-18T03:30:42.680Z",
-            "modified": "2022-10-18T03:30:46.819Z"
+            "modified": "2022-10-18T03:48:59.813Z",
+            "purpose": "linking",
+            "type": "TextualBody",
+            "value": "Letterform Archive: \nhttps://oa.letterformarchive.org/item?workID=lfa_kavalla_0025"
         }
     ],
+    "id": "35b432cb-c12c-4dc6-98bd-bba6d0647fa0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_0025.jpg",
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><circle cx=\"114.92243766784668\" cy=\"121.39211463928223\" r=\"68.2885572479243\"></circle></svg>"
-        }
+        },
+        "source": "https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_0025.jpg"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "35b432cb-c12c-4dc6-98bd-bba6d0647fa0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
