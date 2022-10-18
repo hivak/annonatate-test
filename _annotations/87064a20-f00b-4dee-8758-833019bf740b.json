@@ -15,6 +15,17 @@ order: 7
             "purpose": "linking",
             "type": "TextualBody",
             "value": "Letterform Archive:\nhttps://oa.letterformarchive.org/item?workID=lfa_kavalla_0026"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Internet Archive record: \nhttps://archive.org/details/lfakavalla0026",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-18T03:50:13.344Z",
+            "modified": "2022-10-18T03:50:23.681Z"
         }
     ],
     "id": "87064a20-f00b-4dee-8758-833019bf740b.json",
