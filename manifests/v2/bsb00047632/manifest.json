@@ -3,7 +3,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "https://hivak.github.io/annonatate-test/manifests/v2/bsb00047632/manifest.json",
+  "@id": "https://hivak.github.io/design-examples/manifests/v2/bsb00047632/manifest.json",
   "label": "Sa\u02bfd\u012b: Gulist\u0101n - BSB Cod.pers. 506",
   "metadata": [
     {
