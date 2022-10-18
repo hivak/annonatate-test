@@ -1,0 +1,30 @@
+---
+canvas: "https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_0025.jpg"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Different color brushstrokes to indicate textual hierarchy.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-18T03:16:06.381Z",
+            "modified": "2022-10-18T03:16:17.603Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_0025.jpg",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"379.3253173828125,780.5109252929688 1151.848876953125,603.957763671875 1113.2523193359375,220.61241149902344 310.7584228515625,385.4102783203125 316.49053955078125,424.1019287109375 322.2226257324219,468.52569580078125\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "17301570-d285-4011-9f65-c227a68c5f71.json",
+    "motivation": "commenting"
+}
