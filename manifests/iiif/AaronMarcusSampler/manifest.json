@@ -1,14 +1,11 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://hivak.github.io/design-examples/manifests/iiif/AaronMarcusSampler/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/iiif/AaronMarcusSampler/manifest.json",
   "@type": "sc:Manifest",
-  "attribution": "The Internet Archive",
-  "cover": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7",
-  "description": "A high-resolution sampler of the work of Aaron Marcus.<div><br /></div><div>From the collection of <a href=\"http://letterformarchive.org\" rel=\"nofollow\">Letterform Archive</a>.</div><div><br /></div><div>To schedule a visit, please <a href=\"http://letterformarchive.org/visit\" rel=\"nofollow\">click here</a>. </div>",
   "label": "Aaron Marcus",
-  "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
   "metadata": [
     {
       "label": "title",
@@ -19,410 +16,466 @@
       "value": "graphic design; concrete poetry;"
     }
   ],
-  "related": "http://archive.org/details/AaronMarcusSampler",
+  "description": "A high-resolution sampler of the work of Aaron Marcus.<div><br /></div><div>From the collection of <a href=\"http://letterformarchive.org\" rel=\"nofollow\">Letterform Archive</a>.</div><div><br /></div><div>To schedule a visit, please <a href=\"http://letterformarchive.org/visit\" rel=\"nofollow\">click here</a>. </div>",
+  "thumbnail": {
+    "@id": "https://ia601203.us.archive.org/BookReader/BookReaderPreview.php?id=AaronMarcusSampler&subPrefix=Aaron%20Marcus&itemPath=/5/items/AaronMarcusSampler&server=ia601203.us.archive.org&page=preview&",
+    "@type": "dctypes:Image"
+  },
+  "attribution": "The Internet Archive",
+  "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "viewingHint": "paged",
   "seeAlso": "http://archive.org/metadata/AaronMarcusSampler",
   "sequences": [
     {
-      "@context": "http://iiif.io/api/image/2/context.json",
       "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler/canvas/default",
       "@type": "sc:Sequence",
+      "label": "default",
       "canvases": [
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-0-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-1-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$2/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$2/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$2/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$2/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$2",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$2/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-2-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$3/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$3/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$3/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$3/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$3",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$3/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-3-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$4/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$4/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$4/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$4/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$4",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$4/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-4-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-5-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$6/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$6/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$6/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$6/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$6",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$6/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-6-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-7-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$8/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$8/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$8/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$8/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$8",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$8/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-8-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$9/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$9/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$9/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$9/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$9",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$9/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-9-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-10-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$11/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$11/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$11/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$11/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$11",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$11/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-11-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
           "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$12/canvas",
           "@type": "sc:Canvas",
-          "description": "",
+          "label": "p. ",
           "height": 7201,
+          "width": 7201,
           "images": [
             {
-              "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$12/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$12/annotation",
               "resource": {
                 "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$12/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 7201,
+                "width": 7201,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$12",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "width": 7201
-              }
+                }
+              },
+              "on": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$12/annotation"
             }
           ],
-          "label": "p. ",
-          "width": 7201
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/aaronmarcussampler-12-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         }
-      ],
-      "label": "default"
+      ]
     }
   ],
-  "thumbnail": {
-    "@id": "https://ia601203.us.archive.org/BookReader/BookReaderPreview.php?id=AaronMarcusSampler&subPrefix=Aaron%20Marcus&itemPath=/5/items/AaronMarcusSampler&server=ia601203.us.archive.org&page=preview&"
-  },
-  "viewingHint": "paged"
+  "related": "http://archive.org/details/AaronMarcusSampler",
+  "cover": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$7"
 }
