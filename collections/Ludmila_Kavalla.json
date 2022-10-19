@@ -21,6 +21,12 @@
             "title": "",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia601005-us-archive-org-16-lfakavalla009-lfa-kavalla-009-jpg-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
