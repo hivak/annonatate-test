@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"The City Sleeps, but Someone is Watching\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T03:18:46.460Z",
+            "modified": "2022-10-19T03:19:00.804Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2383.185546875,1668.6287841796875,3399.822265625,3453.7852783203125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://hivak.github.io/design-examples/manifests/iiif/AaronMarcusSampler/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "885d789b-a9b2-4c09-b2eb-5bd2849c4b5c.json",
+    "motivation": "commenting"
+}
