@@ -11,7 +11,6 @@ manifests:
 - https://www.artic.edu/iiif/2/8abbd9da-7e4f-ece2-6326-c8bf62316f0c/full/full/0/default.jpg
 - https://iiif.archivelab.org/iiif/LFA_Type_0070/manifest.json
 - https://iiif.archivelab.org/iiif/LFAType0017/manifest.json
-- https://iiif.archivelab.org/iiif/AaronMarcusSampler/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
