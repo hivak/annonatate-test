@@ -3,33 +3,33 @@ canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"The City Sleeps but Someone is Watching\"",
-            "purpose": "supplementing",
+            "created": "2022-10-19T00:31:29.227Z",
             "creator": {
                 "id": "hivak",
                 "name": "Hiva Kadivar"
             },
-            "created": "2022-10-19T00:31:29.227Z",
-            "modified": "2022-10-19T00:31:45.806Z"
+            "modified": "2022-10-19T00:32:31.430Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "\"The City Sleeps, but Someone is Watching\""
         }
     ],
+    "id": "afe31f67-d129-4484-a634-f8d4314429fa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2380.2216796875,1657.507568359375,3391.91845703125,3456.312744140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2380.2216796875,1657.507568359375,3391.91845703125,3456.312744140625"
+        },
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "afe31f67-d129-4484-a634-f8d4314429fa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
