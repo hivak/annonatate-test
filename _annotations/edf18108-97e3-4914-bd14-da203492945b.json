@@ -1,0 +1,30 @@
+---
+canvas: "https://ia601005.us.archive.org/16/items/lfakavalla009/LFA_Kavalla_009.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Touchups",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T16:50:17.343Z",
+            "modified": "2022-10-19T16:50:18.180Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia601005.us.archive.org/16/items/lfakavalla009/LFA_Kavalla_009.jpg",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1664.5095825195312\" cy=\"996.7708740234375\" rx=\"142.87371826171875\" ry=\"232.5665283203125\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "edf18108-97e3-4914-bd14-da203492945b.json",
+    "motivation": "commenting"
+}
