@@ -1,0 +1,30 @@
+---
+canvas: "https://ia803008.us.archive.org/25/items/lfakavalla002/LFA_Kavalla_002_05.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Touchups around the edges of collage cutout",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T16:42:54.061Z",
+            "modified": "2022-10-19T16:43:09.600Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia803008.us.archive.org/25/items/lfakavalla002/LFA_Kavalla_002_05.jpg",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2402.390380859375\" cy=\"544.2123718261719\" r=\"232.3932340231435\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6c14ed53-f8a7-4213-9a81-5608ddeb6888.json",
+    "motivation": "commenting"
+}
