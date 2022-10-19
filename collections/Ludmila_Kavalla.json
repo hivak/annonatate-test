@@ -29,13 +29,13 @@
             "thumbnail": ""
         },
         {
-            "board": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia903008-us-archive-org-25-lfakavalla002-lfa-kavalla-002-07-jpg-list.json'></iiif-storyboard>",
+            "board": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia903008-us-archive-org-25-lfakavalla002-lfa-kavalla-002-02-jpg-list.json'></iiif-storyboard>",
             "title": "",
             "description": "",
-            "thumbnail": ""
+            "thumbnail": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia903008-us-archive-org-25-lfakavalla002-lfa-kavalla-002-07-jpg-list.json'></iiif-storyboard>"
         },
         {
-            "board": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia903008-us-archive-org-25-lfakavalla002-lfa-kavalla-002-02-jpg-list.json'></iiif-storyboard>",
+            "board": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia903008-us-archive-org-25-lfakavalla002-lfa-kavalla-002-07-jpg-list.json'></iiif-storyboard>",
             "title": "",
             "description": "",
             "thumbnail": ""
