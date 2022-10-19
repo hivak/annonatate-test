@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/canvas"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Meaning map",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T01:08:13.476Z",
+            "modified": "2022-10-19T01:08:14.795Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$5/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1651.81884765625,4020.218017578125,3737.214111328125,1727.380859375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8cf95cbb-903b-41f7-893d-a235b2da2aae.json",
+    "motivation": "commenting"
+}
