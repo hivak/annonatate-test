@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"City\"",
+            "purpose": "describing",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T00:33:07.432Z",
+            "modified": "2022-10-19T00:33:21.115Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2760.144287109375,3273.267822265625,473.52294921875,1818.632080078125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.archivelab.org/iiif/AaronMarcusSampler/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "62ab9244-7157-4ce9-9105-34592d00dde9.json",
+    "motivation": "commenting"
+}
