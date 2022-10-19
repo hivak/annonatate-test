@@ -17,12 +17,6 @@
             "thumbnail": ""
         },
         {
-            "board": "<iiif-multistoryboard annotationurl='https://hivak.github.io/design-examples/annotations/ia601005-us-archive-org-35-lfakavalla0016-lfa-kavalla-0016-jpg-list.json'></iiif-multistoryboard>",
-            "title": "",
-            "description": "",
-            "thumbnail": ""
-        },
-        {
             "board": "<iiif-storyboard annotationurl='https://hivak.github.io/design-examples/annotations/ia601005-us-archive-org-16-lfakavalla009-lfa-kavalla-009-jpg-list.json'></iiif-storyboard>",
             "title": "",
             "description": "",
