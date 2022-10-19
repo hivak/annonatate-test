@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "8 March 74 Princeton New Jersey USA",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T03:21:07.575Z",
+            "modified": "2022-10-19T03:21:27.961Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$1/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3712.3251953125,6290.83837890625,1479.6455078125,136.63525390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://hivak.github.io/design-examples/manifests/iiif/AaronMarcusSampler/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "20b39fe7-bddc-46fa-927d-b08fee066a03.json",
+    "motivation": "commenting"
+}
