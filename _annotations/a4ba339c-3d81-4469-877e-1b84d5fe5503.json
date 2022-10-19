@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T02:41:07.170Z",
+            "modified": "2022-10-19T02:41:07.491Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$0/canvas",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2561.2030029296875\" cy=\"822.0935363769531\" r=\"289.9698326681564\"></circle></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://hivak.github.io/design-examples/manifests/iiif/AaronMarcusSampler/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a4ba339c-3d81-4469-877e-1b84d5fe5503.json",
+    "motivation": "commenting"
+}
