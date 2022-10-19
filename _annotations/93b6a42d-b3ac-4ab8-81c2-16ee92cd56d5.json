@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/canvas"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Letters with breaks, split in half and mirrored across the edge of the graph paper",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T03:27:19.399Z",
+            "modified": "2022-10-19T03:27:55.984Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/AaronMarcusSampler$10/canvas",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1353.5609130859375,3292.555908203125 1609.232666015625,3190.823974609375 1772.57568359375,3245.66455078125 1856.027587890625,3098.018798828125 1881.705078125,2783.46923828125 2530.06201171875,2398.306640625 2825.353515625,2359.79052734375 3069.289794921875,2192.88671875 2087.125244140625,1634.40087890625 1323.21923828125,2103.015380859375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://hivak.github.io/design-examples/manifests/iiif/AaronMarcusSampler/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "93b6a42d-b3ac-4ab8-81c2-16ee92cd56d5.json",
+    "motivation": "commenting"
+}
