@@ -1,0 +1,31 @@
+---
+canvas: "https://ia601005.us.archive.org/35/items/lfakavalla0016/LFA_Kavalla_0016.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Touchups around the letter E",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-19T16:45:21.903Z",
+            "modified": "2022-10-19T16:45:25.860Z"
+        }
+    ],
+    "target": {
+        "source": "https://ia601005.us.archive.org/35/items/lfakavalla0016/LFA_Kavalla_0016.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1370.1519775390625,815.3553466796875,273.89306640625,130.89776611328125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "72b7df31-025f-47b3-b925-41df70778711.json",
+    "motivation": "commenting"
+}
