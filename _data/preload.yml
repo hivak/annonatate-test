@@ -1,6 +1,14 @@
 images:
 - https://ia801009.us.archive.org/18/items/lfakavalla0025/LFA_Kavalla_0025.jpg
 - https://ia601002.us.archive.org/1/items/lfakavalla0026/LFA_Kavalla_0026.jpg
+- https://ia903008.us.archive.org/25/items/lfakavalla002/LFA_Kavalla_002_02.jpg
+- https://ia803008.us.archive.org/25/items/lfakavalla002/LFA_Kavalla_002_03.jpg
+- https://ia803008.us.archive.org/25/items/lfakavalla002/LFA_Kavalla_002_05.jpg
+- https://ia903008.us.archive.org/25/items/lfakavalla002/LFA_Kavalla_002_07.jpg
+- https://ia601005.us.archive.org/35/items/lfakavalla0016/LFA_Kavalla_0016.jpg
+- https://ia801000.us.archive.org/7/items/lfakavalla015/LFA_Kavalla_015_mid.jpg
+- https://ia903007.us.archive.org/32/items/lfakavalla021/LFA_Kavalla_021.jpg
+- https://ia601005.us.archive.org/16/items/lfakavalla009/LFA_Kavalla_009.jpg
 manifests:
 - https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
 - https://dnoneill.github.io/annotate/manifests/parismap.json
