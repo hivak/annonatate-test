@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +21,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -29,7 +30,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070001/full/148,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070001/full/148,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -37,35 +38,42 @@
       "width": 2360,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070001/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070001/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 2360,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070001",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070001",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-1-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-1"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -74,7 +82,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070002/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070002/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -82,35 +90,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070002/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070002/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1923,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070002",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070002",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-2-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-2"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-3",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -119,7 +134,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070003/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070003/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -127,35 +142,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p3/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0003-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070003/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070003/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1925,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070003",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070003",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-3"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-3"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-3-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-3"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-4",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -164,7 +186,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070004/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070004/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -172,35 +194,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p4/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0004-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070004/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070004/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1924,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070004",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070004",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-4"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-4-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-4"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-5",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -209,7 +238,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070005/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070005/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -217,35 +246,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p5/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0005-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070005/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070005/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1925,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070005",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070005",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-5"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-5"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-5-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-5"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-6",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -254,7 +290,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070006/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070006/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -262,35 +298,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p6/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0006-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070006/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070006/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1919,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070006",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070006",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-6"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-6-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-6"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-7",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -299,7 +342,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070007/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070007/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -307,35 +350,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p7/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p7/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0007-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0007-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070007/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070007/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1925,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070007",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070007",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-7"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-7"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-7-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-7"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-8",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -344,7 +394,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070008/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070008/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -352,35 +402,42 @@
       "width": 3000,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p8/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p8/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0008-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0008-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070008/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070008/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1925,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070008",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070008",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-8"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-8"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-8-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-8"
         }
       ]
     },
     {
-      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-9",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-9",
       "type": "Canvas",
       "label": {
         "en": [
@@ -389,7 +446,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070009/full/147,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070009/full/147,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -397,30 +454,37 @@
       "width": 2356,
       "items": [
         {
-          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/page/p9/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/page/p9/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/annotation/p0009-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/annotation/p0009-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070009/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070009/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 2356,
                 "service": [
                   {
-                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/lfatype0070009",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/lfatype0070009",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-9"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-9"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/choclfa-9-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Choclfa/canvas/Choclfa-9"
         }
       ]
     }
