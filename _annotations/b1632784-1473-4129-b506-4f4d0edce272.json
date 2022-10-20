@@ -1,0 +1,34 @@
+---
+canvas: "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-5"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Comment 3",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-20T06:32:00.143Z",
+            "modified": "2022-10-20T06:32:03.283Z"
+        }
+    ],
+    "target": {
+        "source": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/canvas/Choclfa-5",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2076.5772094726562\" cy=\"360.4272003173828\" rx=\"333.26531982421875\" ry=\"174.3343963623047\"></ellipse></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/Choclfa/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b1632784-1473-4129-b506-4f4d0edce272.json",
+    "motivation": "commenting"
+}
