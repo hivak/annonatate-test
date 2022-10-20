@@ -1,0 +1,293 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "GD417_Activity3_Test1"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GD417_Activity3_Andy_Li"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AndyLi/full/101,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7595,
+      "width": 3224,
+      "items": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AndyLi/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7595,
+                "width": 3224,
+                "service": [
+                  {
+                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AndyLi",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GD417_Activity3_Bhavana_Veeravalli"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3BhavanaVeeravalli/full/134,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 8193,
+      "width": 4297,
+      "items": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3BhavanaVeeravalli/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8193,
+                "width": 4297,
+                "service": [
+                  {
+                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3BhavanaVeeravalli",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GD417_Activity3_Gabriela_Hernandez_Vargas"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3GabrielaHernandezVargas/full/103,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2407,
+      "width": 3300,
+      "items": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3GabrielaHernandezVargas/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2407,
+                "width": 3300,
+                "service": [
+                  {
+                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3GabrielaHernandezVargas",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GD417_Activity3_Anabel_ Russo"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AnabelRusso/full/103,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5101,
+      "width": 3301,
+      "items": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AnabelRusso/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5101,
+                "width": 3301,
+                "service": [
+                  {
+                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AnabelRusso",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GD417_Activity3_Ashley_Willis"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AshleyWillis/full/159,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2865,
+      "width": 2550,
+      "items": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AshleyWillis/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2865,
+                "width": 2550,
+                "service": [
+                  {
+                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3AshleyWillis",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "GD417_Activity3_Deni_Lewis"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3DeniLewis/full/142,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3306,
+      "width": 2278,
+      "items": [
+        {
+          "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3DeniLewis/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3306,
+                "width": 2278,
+                "service": [
+                  {
+                    "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/GD417Activity3DeniLewis",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1//GD417Activity3AndyLi",
+  "height": 7595,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 475,
+      "width": 202
+    },
+    {
+      "height": 237,
+      "width": 101
+    },
+    {
+      "height": 119,
+      "width": 50
+    },
+    {
+      "height": 59,
+      "width": 25
+    },
+    {
+      "height": 30,
+      "width": 13
+    },
+    {
+      "height": 15,
+      "width": 6
+    },
+    {
+      "height": 7,
+      "width": 3
+    },
+    {
+      "height": 4,
+      "width": 2
+    },
+    {
+      "height": 2,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 3224
+}

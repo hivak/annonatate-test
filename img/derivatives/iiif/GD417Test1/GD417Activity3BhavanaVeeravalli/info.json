@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1//GD417Activity3BhavanaVeeravalli",
+  "height": 8193,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 256,
+      "width": 134
+    },
+    {
+      "height": 128,
+      "width": 67
+    },
+    {
+      "height": 64,
+      "width": 34
+    },
+    {
+      "height": 32,
+      "width": 17
+    },
+    {
+      "height": 16,
+      "width": 8
+    },
+    {
+      "height": 8,
+      "width": 4
+    },
+    {
+      "height": 4,
+      "width": 2
+    },
+    {
+      "height": 2,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "width": 512
+    }
+  ],
+  "width": 4297
+}
