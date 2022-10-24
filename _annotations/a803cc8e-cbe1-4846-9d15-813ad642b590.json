@@ -1,0 +1,35 @@
+---
+canvas: "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-1"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "comment",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hivak",
+                "name": "Hiva Kadivar"
+            },
+            "created": "2022-10-24T19:35:29.966Z",
+            "modified": "2022-10-24T19:35:30.835Z"
+        }
+    ],
+    "target": {
+        "source": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/canvas/GD417Test1-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=878.177490234375,2563.502685546875,598.97607421875,456.75244140625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://hivak.github.io/design-examples/img/derivatives/iiif/GD417Test1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a803cc8e-cbe1-4846-9d15-813ad642b590.json",
+    "motivation": "commenting"
+}
